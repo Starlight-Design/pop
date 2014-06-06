@@ -1,4 +1,4 @@
-#Poppin' Bottles
+# Poppin' Bottles
 
 You've just been hired at Lighthouse Markets, a reputable (and thoroughly fictional) grocery store chain. One of the primary features of Lighthouse Markets is their recycling program on pop bottles. Here is how the program works:
 
