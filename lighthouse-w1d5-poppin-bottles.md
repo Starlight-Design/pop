@@ -10,7 +10,7 @@ Given these parameters, write a program so that you can figure out how many tota
 
 ## Task 1
 
-Figure out the algorithm that will calculate this. For example, given a $20 investment, the customer will get 10 bottles of pop. That gives a supply of both bottles and bottle caps that can be used to redeem for further bottles, which will then produce a further supply for recycling. This is a `recursive` algorithm. 
+Figure out the algorithm that will calculate this. For example, given a $20 investment, the customer will get 10 bottles of pop. That gives a supply of both bottles and bottle caps that can be used to redeem for further bottles, which will then produce a further supply for recycling. 
 
 ## Task 2
 
@@ -31,3 +31,7 @@ You hear this from us all the time, but build your code incrementally. Build it 
 ## TIP! @instance variables
 
 Your use of instance variables for keeping track of different variables will be very important here. 
+
+## BONUS!
+
+Write this same algorithm using `recursion`.
