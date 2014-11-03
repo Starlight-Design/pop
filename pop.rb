@@ -1,3 +1,5 @@
+require 'colorize'
+
 ## Collect investment from user ##
 def receive_investment
   puts "How much money do you have?"
@@ -16,7 +18,7 @@ end
 def pop_it(cash)
   if cash >= 2
     @bottle = (cash/2)
-    puts "You purchased #{@bottle} bottles!"
+    puts "You purchased #{@bottle} bottles!".colorize(:magenta)
     @caps = @bottle
     puts "You received #{@caps} bottle caps!"
   else
@@ -59,6 +61,7 @@ def do_recycle
   puts "You earned #{@new_bottles} bottles!"
 end
 
+c = "yes"
 ## Buy more bottles ##
 def decision2(choice)
   if choice == "Yes"
@@ -67,11 +70,18 @@ def decision2(choice)
     puts "See you later!"
   end
 end
+decision2(c)
+
+c = "yes"
+decision2(c) {
+
+}
+decision2(c)
 
 ## Check with player if they'd like to purchase more bottles ##
 while true
-puts "Would you like to buy more bottles? (Yes, No)"
-choice2 = gets.chomp.capitalize
+  puts "Would you like to buy more bottles? (Yes, No)"
+  choice2 = gets.chomp.capitalize
   if choice2 == "Yes"
     start
   else
